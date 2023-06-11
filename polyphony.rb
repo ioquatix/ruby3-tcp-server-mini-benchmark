@@ -1,6 +1,7 @@
 require 'polyphony'
 
-server = TCPServer.open('127.0.0.1', 9090)
+port = (ARGV[0] || 9090).to_i
+server = TCPServer.open('127.0.0.1', port)
 #puts "pid #{Process.pid} Polyphony (#{Thread.current.backend.kind}) listening on port 9090"
 
 #spin_loop(interval: 1) do

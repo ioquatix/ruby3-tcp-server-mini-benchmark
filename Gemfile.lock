@@ -1,0 +1,32 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    async (2.5.1)
+      console (~> 1.10)
+      io-event (~> 1.1)
+      timers (~> 4.1)
+    async-io (1.35.0)
+      async
+    console (1.17.2)
+      fiber-annotation
+      fiber-local
+    eventmachine (1.2.7)
+    fiber-annotation (0.2.0)
+    fiber-local (1.0.0)
+    io-event (1.2.2)
+    iodine (0.7.55)
+    polyphony (1.1.1)
+    timers (4.3.5)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  async (~> 2.5.0)
+  async-io
+  eventmachine
+  iodine
+  polyphony
+
+BUNDLED WITH
+   2.4.7
